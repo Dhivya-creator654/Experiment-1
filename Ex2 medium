@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+  char x,y;
+  printf("enter martial:\n");
+  scanf("%c",&x);
+  printf("enter the gender:\n");
+  scanf("%c",&y);
+  int a;
+  printf("enter the age:\n);
+  scanf("%d",&a);
+if(x=='u'&&y='m'&&a>=30)
+{
+printf("driver is insures");
+}
+else if(x{'u'&&y='f'&&a>=25)
+{
+printf("driver is eligible);
+  }
+else
+  {
+  printf("not eligible);
+}
+return 0;
+}
