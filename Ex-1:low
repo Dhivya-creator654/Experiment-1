@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int A,B,C;
+printf("enter a kilometre:");
+scanf("%d",&A);
+B=A*1000;
+C=A*100;
+printf("\n meter:%d",B);
+printf("\n centimetre:%d",C);
+return 0;
+}
