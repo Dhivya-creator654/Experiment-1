@@ -1,0 +1,37 @@
+#indude <stdio.h>
+
+long addtwoNumbers dong, long");
+
+int main()
+
+{
+
+long num al, hum 2, sum,
+
+Printf Ly Enput the first number
+
+Scarf ("yld", & num 13;
+
+printf ("Input the second number: ");
+
+scanf("xld",&num2);
+
+Sum add two Number (Anumi, &num2);
+
+printf ("the sum of %ld and %ld is %ld;"
+
+num, num?, sum);
+
+reteen o;
+
+3
+
+long add twoNumbers(dong #ni, long" na) {
+
+long sum,
+
+Sumnit #n2;
+
+return sum,
+}
+3 من
