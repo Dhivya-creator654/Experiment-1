@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+  int a[10][10],r,c,sum;
+  printf("enter the rows and columns");
+  scanf("%d".&r,&c);
+  printf("enter the elements:");
+  for(int i=0;i<r;i++)
+    {
+    for(intj=0;j<c;j++)
+      {
+      scanf("%d",&a[i][j]);
+      }
+    }
+  for(int j=0;j<=i;j++){
+    if(j<i)
+      sum += a[i][j];
+    }
+  }
+printf("%d",sum);
+return 0;
+}
