@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int a,b;
+printf("enter a number:\n);
+scanf("%d",&a);
+for(int i=2;i<=0;i++)
+{
+if(a%i==0)
+{
+b=i*i;
+printf("%d",b);
+}
+}
+return 0;
+}
