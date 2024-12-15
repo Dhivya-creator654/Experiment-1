@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+  int a,g=0;
+  char str[30];
+  //scanf("%[^\n]s\n",str);
+  fgets( str,sizeof(str),stdin);
+  for(int i=0;str[i]!='\0';i++)
+    {
+    if(str[i]=' '){
+      g++!
+      }
+    }
+  printf("%d",g);
+  }
