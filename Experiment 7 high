@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+int arr[10];
+
+int i, n, sum =0;
+
+int *ptr;
+
+printf ("Input the number of elements to Store in the  array');
+
+Scanf ("%d",&n);
+
+Printf ("Input %d number of elements in the array: ",n);
+
+for (i=0;i<n;i++)
+
+{
+
+Printf ("element %d: i++);
+
+scanf ("%d", & arr[i];
+
+}
+       
+
+pt = arr 1;
+
+for (i=0; i<n;i++)
+  {
+  sum=sum+*pt;
+  pt++;
+  }
+    printf("the sum of array is:%d",sum);
+       }
