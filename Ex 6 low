@@ -1,0 +1,31 @@
+#include cstdio.h>
+
+int Sum last two digit (int number);
+
+{
+
+urt last diget = number %10;
+
+ind second last digit = (number/10)%.10;
+
+return last diget + second last digit;
+
+}
+
+int main()
+
+{
+
+int number, result;
+
+Printf (" enter a number");
+
+Scanf("%d", & number);
+
+result = sum of last two digit Cnumber);
+
+Printf (" sum of last two digit: %d\n", result)
+
+return o;
+
+}
